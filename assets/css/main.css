@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("font-awesome.min.css");
+@import url("../fonts/font-awesome-4.7.0/css/font-awesome.min.css");
 
 /*
 	Aerial by HTML5 UP
@@ -186,7 +186,8 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #ffffff url("images/bg1.jpg") center;
+		background-size: cover;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
