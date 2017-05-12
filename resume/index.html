@@ -44,6 +44,7 @@
 							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#skills" title="skills"><i class="icon-code"></i></a></li>
 							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="./Aman_Sehgal_Resume.pdf" title="DownloadPDF"><i class="icon-download"></i></a></li>
 						</ul><!--/ uL#nav -->
 					</div><!-- /.dropdown -->
 
@@ -85,7 +86,7 @@
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+					<img src="download.png">
 				</div>
 				
 			</div><!--/.row -->
@@ -178,7 +179,7 @@
 					<p>
 						<more>
 							Embedded software design and development in C/C++.<br/>
-							Device Drivers for custom protocols and power electronics using DMA, USART and Timers.<br/>
+							Device Drivers for custom protocols and power electronics using DMA, USART, Timer Channels and A/DC.<br/>
 							Hardware test and bringup.<br/>
 							Test bench development and documentation.<br/>
 						</more>
@@ -273,7 +274,7 @@
 							var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
-
+<!-- new row-->
 					<div class="col-lg-3 col-lg-offset-3 centered">
 						<canvas id="Java" height="130" width="130"></canvas>
 						<p>Java</p>
@@ -330,8 +331,179 @@
 								var myDoughnut = new Chart(document.getElementById("HTML/CSS3").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="PHP" height="130" width="130"></canvas>
+						<p>PHP</p>
+						<br>
+						<script>
+							var doughnutData = [
+								{
+									value: 60,
+									color:"#1abc9c"
+								},
+								{
+									value : 40,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("PHP").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+			</div> <!-- row-->
+
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>MACHINE LEARNING</h5>
+				</div>
+<!-- new row-->
+					<div class="col-lg-3 centered">
+						<canvas id="matlabml" height="130" width="130"></canvas>
+						<p>MATLAB: ML Toolbox</p>
+						<br>
+						<script>
+							var doughnutData = [
+								{
+									value: 70,
+									color:"#1abc9c"
+								},
+								{
+									value : 30,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("matlabml").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 centered">
+						<canvas id="pyml" height="130" width="130"></canvas>
+						<p>Python: Sci-Kit Learn</p>
+						<br>
+						<script>
+							var doughnutData = [
+								{
+									value: 50,
+									color:"#1abc9c"
+								},
+								{
+									value : 50,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("pyml").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+					<div class="col-lg-3 centered">
+						<canvas id="weka" height="130" width="130"></canvas>
+						<p>WEKA</p>
+						<br>
+						<script>
+							var doughnutData = [
+								{
+									value: 50,
+									color:"#1abc9c"
+								},
+								{
+									value : 50,
+									color : "#ecf0f1"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("weka").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+<!-- new row -->
+				<div class="col-lg-3 col-lg-offset-3 centered">
+					<canvas id="tf" height="130" width="130"></canvas>
+					<p>Python: TensorFlow</p>
+					<br>
+					<script>
+                        var doughnutData = [
+                            {
+                                value: 55,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 45,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("tf").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+
+				<div class="col-lg-3 centered">
+					<canvas id="keras" height="130" width="130"></canvas>
+					<p>Python: Keras </p>
+					<br>
+					<script>
+                        var doughnutData = [
+                            {
+                                value: 20,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 80,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("keras").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
 
 			</div><!--/.row -->
+
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CAD Tools</h5>
+				</div>
+
+				<div class="col-lg-3 centered">
+					<canvas id="altium" height="130" width="130"></canvas>
+					<p>Altium: PCB design</p>
+					<br>
+					<script>
+                        var doughnutData = [
+                            {
+                                value: 60,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 40,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("altium").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+
+				<div class="col-lg-3 centered">
+					<canvas id="solid" height="130" width="130"></canvas>
+					<p>Solidworks: Mechanical design</p>
+					<br>
+					<script>
+                        var doughnutData = [
+                            {
+                                value: 60,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 40,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("solid").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div><!--/.row -->
+
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>DATABASES</h5>
+				</div>
+
+
+			</div>
 			<br>
 		</div><!--/.container -->
 	</div><!--/ #skillswrap -->
@@ -352,7 +524,7 @@
 					<p><t>Email</t><br/>
 						aman.1.sehgal@gmail.com <br/>
 					</p>
-					<p><t>Adress</t><br/>
+					<p><t>Address</t><br/>
 						 Philadelphia <br/>
 						 USA <br/>
 					</p>
