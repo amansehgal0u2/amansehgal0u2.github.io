@@ -484,11 +484,11 @@
 					<script>
                         var doughnutData = [
                             {
-                                value: 60,
+                                value: 40,
                                 color:"#1abc9c"
                             },
                             {
-                                value : 40,
+                                value : 60,
                                 color : "#ecf0f1"
                             }
                         ];
@@ -502,8 +502,25 @@
 					<h5>DATABASES</h5>
 				</div>
 
-
-			</div>
+				<div class="col-lg-3 centered">
+					<canvas id="mysql" height="130" width="130"></canvas>
+					<p>MySQL/PHP Admin</p>
+					<br>
+					<script>
+                        var doughnutData = [
+                            {
+                                value: 55,
+                                color:"#1abc9c"
+                            },
+                            {
+                                value : 45,
+                                color : "#ecf0f1"
+                            }
+                        ];
+                        var myDoughnut = new Chart(document.getElementById("mysql").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div> <!--/ .row -->
 			<br>
 		</div><!--/.container -->
 	</div><!--/ #skillswrap -->
